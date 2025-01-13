@@ -9,7 +9,7 @@ import wandb
 from wandb.integration.sb3 import WandbCallback
 
 # Replace Pendulum-v1/YourName with your own project name (Folder/YourName, e.g. 2022-Y2B-RoboSuite/Michael)
-task = Task.init(project_name='Pendulum-v1/2025-Y2B-RoboSuite/RafalStanczyszyn', # NB: Replace YourName with your own name
+task = Task.init(project_name='Mentor Group A/Group 2', # NB: Replace YourName with your own name
                     task_name='Experiment1')
 
 #copy these lines exactly as they are
