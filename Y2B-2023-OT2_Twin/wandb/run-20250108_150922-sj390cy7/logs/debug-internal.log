@@ -1,0 +1,18 @@
+{"time":"2025-01-08T15:09:22.0514895+01:00","level":"INFO","msg":"using version","core version":"0.19.0"}
+{"time":"2025-01-08T15:09:22.0514895+01:00","level":"INFO","msg":"created symlink","path":"C:\\Users\\Asusu\\Desktop\\Nauka - Rafał Stańczyszyn\\BAUS\\Year 2\\Block B\\task 10\\Y2B-2023-OT2_Twin\\wandb\\run-20250108_150922-sj390cy7\\logs\\debug-core.log"}
+{"time":"2025-01-08T15:09:23.3846831+01:00","level":"INFO","msg":"created new stream","id":"sj390cy7"}
+{"time":"2025-01-08T15:09:23.3846831+01:00","level":"INFO","msg":"stream: started","id":"sj390cy7"}
+{"time":"2025-01-08T15:09:23.3846831+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"sj390cy7"}
+{"time":"2025-01-08T15:09:23.3846831+01:00","level":"INFO","msg":"sender: started","stream_id":"sj390cy7"}
+{"time":"2025-01-08T15:09:23.3846831+01:00","level":"INFO","msg":"handler: started","stream_id":"sj390cy7"}
+{"time":"2025-01-08T15:09:23.5868365+01:00","level":"ERROR","msg":"HTTP error","status":401,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-01-08T15:09:23.5868365+01:00","level":"ERROR","msg":"sender: upsertRun:","error":"failed to upsert bucket: returned error 401 Unauthorized: {\"errors\":[{\"message\":\"user is not logged in\",\"path\":[\"upsertBucket\"],\"extensions\":{\"code\":\"PERMISSION_ERROR\"}}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-01-08T15:09:23.5967682+01:00","level":"INFO","msg":"stream: closing","id":"sj390cy7"}
+{"time":"2025-01-08T15:09:23.5972802+01:00","level":"ERROR","msg":"sender: upsertConfig: RunRecord is nil"}
+{"time":"2025-01-08T15:09:23.7637055+01:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-01-08T15:09:23.7637055+01:00","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: returned error 404 Not Found: {\"errors\":[{\"message\":\"project /sb3_pendulum_demo not found during createRunFiles\",\"path\":[\"createRunFiles\"]}],\"data\":{\"createRunFiles\":null}}"}
+{"time":"2025-01-08T15:09:23.765104+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-08T15:09:23.765104+01:00","level":"INFO","msg":"handler: closed","stream_id":"sj390cy7"}
+{"time":"2025-01-08T15:09:23.765104+01:00","level":"INFO","msg":"sender: closed","stream_id":"sj390cy7"}
+{"time":"2025-01-08T15:09:23.765104+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"sj390cy7"}
+{"time":"2025-01-08T15:09:23.7656215+01:00","level":"INFO","msg":"stream: closed","id":"sj390cy7"}
